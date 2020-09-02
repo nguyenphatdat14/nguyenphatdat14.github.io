@@ -1,0 +1,528 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+.container{
+	width: 100%;
+	height:100px;
+	background-color: aqua;
+	position: relative;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	position: absolute;	
+}
+.logo{
+	width: 20%;
+	height: 90px;
+	margin-left: -100px;
+	float: left;
+	text-align: center;
+	position: absolute;
+	padding-top: 10px;
+	
+	
+}
+.logo img{
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+	text-align: center;
+	position: absolute;
+}
+.menu{
+	width: 80%;
+	height: 90px;
+	float: right;
+	padding-top: 10px;
+}
+.menu ul{
+	padding-top: 39px;
+	padding-right: 0px;
+	float:right;
+	list-style: none;
+	text-align: left;
+	
+}
+.menu ul li {
+	display: inline-block;
+	padding-right: 29px;
+	font-size: 22px;
+	text-align: left;
+	position: relative;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	transition-duration: 0.2s;
+}
+.menu ul li ul{
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	visibility: hidden;
+	text-align: center;
+}
+.menu ul li ul li{
+	font-size: 21px;
+	height: 50px;
+	width: 250px;
+	background-color: red;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 10px;
+	padding-left: 30px;
+	}
+
+.menu ul li a:hover{
+	color: black;
+}
+.menu ul li:hover ul{
+	visibility: visible;
+}
+.banner1 {
+	width: 100%;
+	height: 100vh;
+	background: url("../Image/07_araki_senti_04_017_rgb_0-1360x940.jpg");
+	background-attachment: fixed;
+    background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	postion: relative;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+
+.banner1 p{
+	margin-top: 300px;
+	float: left;
+	margin-left: 110px;
+	text-align: left;
+	font-size: 140px;
+	color: white;
+	text-shadow: 4px 2px 5px black;
+	position: absolute;
+}
+
+.banner1 h4{
+	margin-top: 440px;
+	float: left;
+	margin-left: 110px;
+	text-align: left;
+	font-size: 17px;
+	color: white;
+	position: absolute;
+	text-shadow: 4px 2px 5px black;
+}
+.button1{
+	height: 50px;
+	width: 200px;
+	border-radius: 10px;
+	transition-duration: 0.4s;
+	float: left;
+	margin-top: 500px;
+	margin-left: 110px;
+	position: absolute;
+	border: none;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: white;
+	}
+.button1 a{
+	text-decoration: none;
+	font-size: 17px;
+	color: black;
+	
+}
+.button1:hover {
+  background-color: black;
+}	
+.button1:hover a {
+  color: white;
+  trasition-duration: 0.4s;
+	}
+.active{
+	color: black !important;
+}
+.information{
+	width: 100%;
+	height: 60vh;
+	background-color: black;
+	position: relative;
+}
+.image{
+ 	width: 35%;
+	height: 60vh;
+	position: absolute;
+	left: 0px;	
+}
+.image img{
+	height: 450px;
+	width: 380px;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 57px;
+	margin-right: 57px;
+	margin-bottom: 30px;
+}
+.text{
+	width:65%;
+	height: 60vh;
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	color: red;
+	margin-top: 100px;
+	margin-left: 200px;
+	margin-right: 57px;
+	margin-bottom: 20px;
+	
+}
+.banner2{
+	width: 100%;
+	height: 100vh;
+	background-image: url( "../Image/14_16a130b8-bc6a-4024-b66f-ac77b381f0f5-2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
+  	background-repeat: no-repeat;
+	postion: relative;
+}
+.banner2 h2{
+	margin-top: 150px;
+	float: left;
+	margin-left: 50px;
+	text-align: left;
+	font-size: 100px;
+	color: white;
+	text-shadow: 4px 2px 5px black;
+	position: absolute;
+}
+.banner2 h1{
+	margin-top: 300px;
+	float: left;
+	margin-left: 50px;
+	text-align: left;
+	font-size: 50px;
+	color: white;
+	text-shadow: 4px 2px 5px black;
+	position: absolute;
+}
+.banner2 h3{
+	margin-top: 450px;
+	float: left;
+	margin-left: 50px;
+	text-align: left;
+	font-size: 30px;
+	color: white;
+	text-shadow: 4px 2px 5px black;
+	position: absolute;
+}
+.artwork{
+	width: 100%;
+	height: 1760px;
+	background-color: black;
+ 	display: inline-block;
+	padding-top: 60px;
+	position: relative;
+	text-align: center;
+	
+}
+.artwork h1{
+	text-align: center;
+	color: red;
+	font-size: 45px;
+}
+.box {
+	 display: inline-block;
+	 background: white;
+	 width: 20%;
+	 height: 450px;
+	margin-top: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.box img{
+	padding-top: 20px;
+	height: 300px;
+	width: 250px;
+}
+.box .left-box{
+	width: 51%;
+	height: 52px;
+	float: left;
+	border-top: 1px solid black;
+	font-size: 24px;
+	margin-top: 15px;
+	padding-top: 19px;
+
+}
+.box .right-box{
+	width: 49%;
+	height: 54px;
+	float: right;
+	background-color: red;
+	font-size: 24px;
+	margin-top: 15px;
+	padding-top: 19px;
+	
+}
+.box .left-box a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+.box .right-box a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+.box .right-box a:hover{
+	color: black;
+}
+.left-box a:hover{
+	color: red;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 5px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+.banner3{
+	width: 100%;
+	height: 100vh;
+	
+	background-image: url( "../Image/http---hypebeast.com-image-2016-10-10-facts-nobuyoshi-araki-supreme-collaboration-3.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
+  	background-repeat: no-repeat;
+	postion: relative;
+}
+.banner3 h2{
+	margin-top: 150px;
+	float: left;
+	margin-left: 50px;
+	text-align: left;
+	font-size: 80px;
+	color: white;
+	text-shadow: 4px 2px 5px black;
+	position: absolute;
+}
+.banner3 h1{
+	margin-top: 260px;
+	float: left;
+	margin-left: 50px;
+	text-align: left;
+	font-size: 50px;
+	color: white;
+	text-shadow: 4px 2px 5px black;
+	position: absolute;
+}
+.banner3 h3{
+	margin-top: 500px;
+	float: left;
+	margin-left: 50px;
+	text-align: left;
+	font-size: 30px;
+	color: white;
+	text-shadow: 4px 2px 5px black;
+	position: absolute;
+}
+.blogs{
+	width: 100%;
+	height: 100vh;
+	color: white;
+	position: relative;
+	
+	
+}
+.blogs h1{
+	font-size: 100px;
+	letter-spacing: 50px;
+	transform: rotate( 90deg);
+	position: absolute;
+	left: -200px;
+	top: 390px;
+	color: black;
+
+}
+.blogs h3{
+	position: absolute;
+	top: 100px;
+	color: red;
+	right: 33%;
+	font-size: 30px;
+	
+	
+}
+.rectangle{
+	height: 580px;
+	width: 300px;
+	background-color: black;
+	margin-top: 200px;
+	margin-left: 60px;
+	display: inline-block;
+	position: relative;
+}
+.rectangle .mota1{
+	height: 400px;
+	width: 300px;
+	position: absolute;
+	top: 0;
+	background-color: black;
+	opacity: 0.7;
+	transition-duration: 2s;
+
+}
+.rectangle .mota1 p{
+	margin-top: 150px;
+	font-size: 50px;
+	color: red;
+}
+.rectangle:hover .mota1{
+	opacity: 0;
+}
+.rectangle img{
+	height: 400px;
+	width: 300px;
+	background-size: cover;
+	
+}
+.rectangle h5{
+	color: white;
+	font-size: 19px;
+	text-align: center;
+	padding-top: 30px;
+	
+}
+.rectangle p{
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+.sticky{
+	height: 170px;
+	width: 50px;
+	background-color: black;
+	position: fixed;
+	right: 0;
+	bottom: 30%;
+}
+.sticky ul{
+	list-style:none;
+}
+.sticky ul li{
+	
+	margin-left: 13px;
+	margin-top: 13px;
+	
+}
+.footer{
+	width: 100%;
+	height: 500px;
+	background-color: black;
+	margin-top: 150px;
+	position: relative;
+}
+.dauan{
+	width: 100%;
+	height: 25px;
+	position: absolute;
+	bottom: 0;
+	background-color: white;
+	text-align: center;
+	padding-top: 22px;
+		
+}
+.connect{
+	width: 100%;
+	height: 460px;
+	position: absolute;
+	top: 0;
+	text-align: center;
+	margin-top: 50px;
+}
+.connect p{
+	font-size: 70px;
+	color: white;	
+}
+#smalltype{
+	font-size: 20px;
+	color: #D6D6D6;
+	
+}
+
+#mail{
+	height:60px;
+	width: 600px;
+	border-radius: 30px;
+	position: absolute;
+	top: 130px;
+	left: 28%;
+	border: none;
+	font-size: 16px;
+	padding-left: 30px;
+	
+}
+.connectmail{
+	height: 50px;
+	width: 150px;
+	position: absolute;
+	background-color: red;
+	color: white;
+	font-size: 30px;
+	border: none;
+	border-radius: 30px;
+	top: 135px;
+	left: 61%;
+}
+.connectmail a{
+	text-decoration: none;
+	color: white;
+}
+
+.social{
+	width: 500px;
+	height: 50px;
+	position: absolute;
+	bottom: 80px;
+	left: 32%;
+}
+.social ul{
+	text-align: center;
+	text-decoration: none;
+}
+.social ul li{
+	display: inline-block;
+	margin-left: 40px;
+	
+}
+
+
+
+
